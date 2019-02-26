@@ -1,0 +1,283 @@
+body > header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px
+}
+body > header .nav_bar{
+    padding-top: 18px
+}
+body > header .header_icons{
+    padding-top: 18px
+}
+body > header .header_icons img{
+    display: inline-block;
+    height: 22px;
+    height: 22px;
+    margin-left: 18px;
+    cursor: pointer
+}
+body > header .nav_item{
+    display: inline-block;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #b4c5ca;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer
+}
+body > header .nav_item + .nav_item{
+    margin-left: 15px
+}
+body > header .nav_item img{
+    width: 25px;
+    height: 20px
+}
+body > header .sigle img{
+    width: 150px;
+    height: 60px
+}
+.article_grand_plant{
+    background-color: #f0f3f2;
+    padding-top: 20px;
+    padding-bottom: 80px
+}
+.article_grand_plant .image img{
+    width: 100%;
+    height: 500px
+}
+.article_grand_plant .description .categorie{
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: #8a95a0;
+}
+.article_grand_plant .description .title{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 25px;
+    color: #8a95a0;
+}
+.article_grand_plant .description .prise{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 40px;
+    color: skyblue;
+}
+.article_grand_plant .description button{
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #3e3a52
+}
+.liste_article{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.liste_article .lst_categorie .item{
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: #748190;
+    cursor: pointer;
+    border-radius: 100px
+}
+.liste_article .lst_categorie .item:hover{
+    background-color: skyblue;
+    color: white
+}
+.liste_article .lst_categorie .item:first-child{
+    background-color: skyblue;
+    color: white
+}
+.liste_article .lst_article_content{
+    margin-top: 50px
+}
+.liste_article .lst_article_content .item{
+    text-align: center
+}
+.liste_article .lst_article_content .item .image{
+    width: 100%;
+    height: 250px
+}
+.liste_article .lst_article_content .item .title{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #606f7f;
+}
+.liste_article .lst_article_content .item .prise{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    color: skyblue;
+    font-weight: bold
+}
+.liste_article .lst_article_content .item .icons img{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer
+}
+.liste_article .load_more_products button{
+    height: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #96a5b7;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    margin-top: 55px;
+    margin-bottom: 55px
+}
+.liste_article .load_more_products button:hover{
+    background-color: white;
+    border: #96a5b7 2px solid;
+    color: #96a5b7
+}
+.subscribe_offre{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.subscribe_offre > div{
+    padding: 20px
+}
+.subscribe_offre > div > div{
+    border: white 5px solid;
+    padding: 20px
+}
+.subscribe_offre .prise{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold
+}
+.subscribe_offre .title{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 30px;
+    color: yellowgreen;
+    font-weight: bold
+}
+.subscribe_offre .form input{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-left: 10px
+}
+.subscribe_offre .form input[type=submit]{
+    background-color: #312d40;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none
+}
+.liste_article_two .lst_article_content .item{
+    border: #312d40 1px solid
+}
+.liste_article_two .lst_article_content .item + .item{
+    margin-bottom: 10px;
+    padding-bottom: 3px
+}
+.liste_article_three{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e4e6e8;
+}
+.liste_article_three .item .label{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 25px;
+    color: #413452;
+    font-weight: bold
+}
+.liste_article_three .item .content{
+    margin-bottom: 10px
+}
+.liste_article_three .item .content .image img{
+    width: 150px;
+    height: 100px
+}
+.liste_article_three .item .content .description .title{
+    color: #b6bdc5;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 20px; 
+}
+.liste_article_three .item .content .description{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 17px
+}
+.liste_article_three .item .content .description .prise{
+    color: skyblue;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 15px; 
+    font-weight: bold
+}
+.liste_article_three{
+    margin-top: 100px
+}
+#menu_icon{
+    display: none;
+}
+@media(max-width: 950px){
+    body > header .nav_bar{
+        display: none;
+        width: 100%;
+        text-align: center
+    }
+    body > header .nav_bar .nav_item{
+        display: block;
+        width: 100%
+    }
+    body > header .nav_bar .nav_item + .nav_item{
+        margin-left: 0px;
+        margin-top: 15px
+    }
+    body > header .header_icons{
+        padding-top: 10px
+    }
+    body > header .sigle img{
+        width: 100px;
+        height: 40px
+    }
+    #menu_icon{
+        display: inline-block
+    }
+    .liste_article_two .lst_article_content .item{
+        margin-bottom: 20px
+    }
+}
+
